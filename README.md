@@ -93,6 +93,8 @@ This task provided practical exposure to AWS cloud storage services. By creating
 
 
 
-##output 
+##output
+
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/39552cb6-4097-41e5-89f1-cba0387671d2" />
 
 
