@@ -12,9 +12,11 @@
 
 **MENTOR** NEELA SANTOSH 
 
- TASK1 - 
+ **TASK 1** - CREATE AND CONFIGURE CLOUD STORAGE ON AWS S3 OR GOOGLE CLOUD STORAGE .
 
-Steps i have perfom
+
+STEPS I HAVE PERFORM HERE :-
+
 1. AWS Login and S3 Access
 
 Logged into the AWS Management Console.
@@ -29,7 +31,7 @@ Clicked on “Create Bucket”.
 
 Provided a globally unique bucket name.
 
-Selected the region: Asia Pacific (Mumbai) – ap-south-1.
+Selected the region: Asia Pacific (Mumbai) – ap-south-.
 
 Kept default security settings (Block Public Access enabled).
 
@@ -44,9 +46,7 @@ Opened the created bucket.
 Uploaded sample files such as:
 
 Text file (.txt)
-
 PDF file
-
 Image file
 
 Verified that files were successfully stored in the bucket.
