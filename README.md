@@ -175,6 +175,15 @@ This task provided hands-on experience in cloud monitoring and alert configurati
 
 **Output**
 
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/640fb196-6ba1-4b13-8351-417a6f3713be" />
+
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/c4ff10f4-fb4b-4fb5-b8e7-a10568ccb574" />
+
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/c6efd132-19ef-4562-8c18-b0e3ad2aa943" />
+
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/2548e475-4868-4e28-8f9b-a0aab72e37fa" />
+
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/fa996628-8662-4d55-b7f2-91002f52fd7a" />
 
 
 
