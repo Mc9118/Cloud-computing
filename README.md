@@ -110,7 +110,7 @@ Introduction
 
 Amazon CloudWatch is a monitoring and observability service provided by AWS. It collects metrics, logs, and events from AWS resources and allows users to monitor system performance, detect anomalies, and configure automated alerts.
 
-8Implementation Steps
+Implementation Steps:-
 1. EC2 Instance Setup
 
 A cloud-based application environment was simulated by launching a t2.micro EC2 instance running Amazon Linux.
@@ -159,7 +159,7 @@ Configured automated alerts.
 
 Enabled email notifications using SNS.
 
-Learning Outcomes
+Learning Outcomes:-
 
 Understanding of cloud monitoring concepts.
 
@@ -169,7 +169,7 @@ Knowledge of alert configuration and threshold management.
 
 Insight into real-world DevOps monitoring practices.
 
-Conclusion:
+**Conclusion:-**
 
 This task provided hands-on experience in cloud monitoring and alert configuration using AWS CloudWatch. By creating dashboards and alerts, the importance of proactive monitoring in maintaining cloud infrastructure reliability and performance was demonstrated.
 
