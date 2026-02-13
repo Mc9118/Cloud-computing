@@ -100,3 +100,82 @@ This task provided practical exposure to AWS cloud storage services. By creating
 
 
 
+**Task 2** : **Cloud Monitoring and Alerts using AWS CloudWatch**
+
+Objective
+
+The objective of this task was to set up monitoring for a cloud-based application using AWS CloudWatch. The task involved configuring metrics tracking, creating a monitoring dashboard, and setting up alerts for performance thresholds.
+
+Introduction
+
+Amazon CloudWatch is a monitoring and observability service provided by AWS. It collects metrics, logs, and events from AWS resources and allows users to monitor system performance, detect anomalies, and configure automated alerts.
+
+8Implementation Steps
+1. EC2 Instance Setup
+
+A cloud-based application environment was simulated by launching a t2.micro EC2 instance running Amazon Linux.
+
+2. Monitoring Metrics
+
+CloudWatch automatically collected performance metrics such as:
+
+CPU Utilization
+
+Network In and Out
+
+Disk Read and Write operations
+
+These metrics were analyzed to understand instance behavior.
+
+3. Dashboard Creation
+
+A custom CloudWatch dashboard was created to visualize:
+
+CPU Utilization
+
+Network traffic metrics
+
+The dashboard provided real-time graphical representation of system performance.
+
+4. Alert Configuration
+
+A CloudWatch alarm was configured with the following:
+
+Metric: CPU Utilization
+
+Threshold: Greater than 70%
+
+Evaluation period: 5 minutes
+
+An SNS topic was created to send email notifications when the threshold condition is met.
+
+Deliverables Achieved
+
+Successfully monitored EC2 instance metrics.
+
+Created a custom CloudWatch dashboard.
+
+Configured automated alerts.
+
+Enabled email notifications using SNS.
+
+Learning Outcomes
+
+Understanding of cloud monitoring concepts.
+
+Practical experience with AWS CloudWatch.
+
+Knowledge of alert configuration and threshold management.
+
+Insight into real-world DevOps monitoring practices.
+
+Conclusion:
+
+This task provided hands-on experience in cloud monitoring and alert configuration using AWS CloudWatch. By creating dashboards and alerts, the importance of proactive monitoring in maintaining cloud infrastructure reliability and performance was demonstrated.
+
+**Output**
+
+
+
+
+
