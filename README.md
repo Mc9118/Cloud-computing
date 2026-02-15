@@ -110,7 +110,8 @@ Introduction
 
 Amazon CloudWatch is a monitoring and observability service provided by AWS. It collects metrics, logs, and events from AWS resources and allows users to monitor system performance, detect anomalies, and configure automated alerts.
 
-Implementation Steps:-
+**Implementation Steps:-**
+
 1. EC2 Instance Setup
 
 A cloud-based application environment was simulated by launching a t2.micro EC2 instance running Amazon Linux.
@@ -159,7 +160,7 @@ Configured automated alerts.
 
 Enabled email notifications using SNS.
 
-Learning Outcomes:-
+**Learning Outcomes:-**
 
 Understanding of cloud monitoring concepts.
 
@@ -187,4 +188,53 @@ This task provided hands-on experience in cloud monitoring and alert configurati
 
 
 
+  **Task 3** : - **DESIGN A MULTI-CLOUD ARCHITECTURE WHERE SERVICES ARE DISTRIBUTED ACROSS TWO CLOUD PROVIDERS.**
 
+  **Objective -**
+
+To design and demonstrate a multi-cloud architecture where services are distributed across two cloud providers and show interoperability between platforms.
+
+**Cloud Providers Used -**
+
+Amazon Web Services (AWS)
+
+GitHub API (External Cloud Service)
+
+**Architecture Design -**
+
+AWS EC2 instance was launched in the US-East-1 region.
+
+The EC2 instance acts as the primary cloud computing environment.
+
+From the EC2 terminal, we connected to an external cloud-based API (GitHub API).
+
+This demonstrates interoperability between AWS cloud infrastructure and another cloud service platform.
+
+Practical Implementation Steps:
+
+Launched an EC2 instance (Amazon Linux 2023).
+
+Connected to the instance using EC2 Instance Connect.
+
+**Executed the following command-**
+
+curl https://api.github.com/users/octocat
+
+
+The EC2 instance successfully retrieved JSON data from the GitHub cloud API.
+
+**Result-**
+
+The successful API response confirms that:
+
+The AWS cloud environment can communicate with external cloud platforms.
+
+Multi-cloud interoperability has been successfully demonstrated.
+
+The architecture supports cross-platform service communication.
+
+**Conclusion-**
+
+This implementation successfully demonstrates a simple multi-cloud architecture where AWS EC2 interacts with an external cloud service (GitHub API), proving interoperability between cloud platforms.
+
+  
