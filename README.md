@@ -244,4 +244,6 @@ This implementation successfully demonstrates a simple multi-cloud architecture 
 <img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/95438255-7b57-466d-bb43-a7078a34e673" />
 
 <img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/b164aa76-e83f-45a0-86dd-36dc3328390b" />
+
   
+This architecture can be extended further by integrating Azure or Google Cloud services for storage, monitoring, or database services to build a fully distributed multi-cloud system.
