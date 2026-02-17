@@ -188,7 +188,7 @@ This task provided hands-on experience in cloud monitoring and alert configurati
 
 
 
-  **Task 3** : - **DESIGN A MULTI-CLOUD ARCHITECTURE WHERE SERVICES ARE DISTRIBUTED ACROSS TWO CLOUD PROVIDERS.**
+  **Task 3 : - DESIGN A MULTI-CLOUD ARCHITECTURE WHERE SERVICES ARE DISTRIBUTED ACROSS TWO CLOUD PROVIDERS.**
 
   **Objective -**
 
@@ -247,3 +247,157 @@ This implementation successfully demonstrates a simple multi-cloud architecture 
 
   
 This architecture can be extended further by integrating Azure or Google Cloud services for storage, monitoring, or database services to build a fully distributed multi-cloud system.
+
+
+**Task 4:- Implement IAM Policies, Secure Storage, and Data Encryption on AWS.**
+
+ **Objective :-**
+
+The objective of this task was to implement security best practices on AWS by:
+
+Creating controlled IAM access
+
+Securing cloud storage (Amazon S3)
+
+Enabling encryption for stored data
+
+Verifying security configuration using AWS CLI
+
+This task demonstrates practical cloud security implementation.
+
+ **Part 1: IAM Policy Implementation**
+What Was Done:-
+
+Created a new IAM user named Secure_user.
+
+Generated Access Key ID and Secret Access Key.
+
+Avoided using root credentials for operations.
+
+Followed the principle of least privilege.
+
+**Why This Is Important-**
+
+IAM (Identity and Access Management) controls who can access what in AWS.
+
+Using IAM users instead of root prevents accidental misuse of full account privileges.
+
+This ensures secure and controlled access to resources.
+
+ Concept Demonstrated:
+
+Identity-based access control
+
+Secure credential management
+
+Role separation in cloud security
+
+ Part 2: Secure Storage Configuration (Amazon S3)
+What Was Done
+
+Created an S3 bucket named: secure.file
+
+Region: us-east-1
+
+**Enabled:**
+
+ Block All Public Access
+
+ No public ACLs allowed
+
+Why This Is Important
+
+By blocking public access:
+
+The bucket cannot be accessed from the internet.
+
+Data is protected from unauthorized public exposure.
+
+Prevents accidental data leaks.
+
+ **Concept Demonstrated:**
+
+Private cloud storage configuration
+
+Data isolation
+
+Public access prevention
+
+This simulates how companies secure sensitive data such as financial or user information.
+
+ **Part 3: Data Encryption at Rest**
+
+Enabled default encryption for the bucket:
+
+Encryption Type: Server-Side Encryption with Amazon S3 managed keys (SSE-S3)
+
+Algorithm: AES-256
+
+**This ensures:**
+
+Every object uploaded to the bucket is automatically encrypted.
+
+No manual encryption needed per file.
+
+Why This Is Important
+
+**Encryption at rest means:-**
+
+Even if storage is compromised, data remains unreadable.
+
+Meets compliance standards (GDPR, ISO, etc.)
+
+Protects sensitive business data.
+
+**Concept Demonstrated:**
+
+Data protection at rest
+
+Cryptographic security in cloud
+
+Automated encryption policies
+
+**part 4: CLI Verification and Validation**
+
+Uploaded test file: my data.txt
+
+Used AWS CLI to verify object existence:
+
+aws s3api list-objects --bucket secure.file
+
+
+Verified identity:
+
+aws sts get-caller-identity
+
+
+**This confirmed:**
+
+Correct IAM user/credentials are being used
+
+Bucket access is authenticated
+
+Why This Is Important
+
+**Using CLI verification ensures:**
+
+Security configuration is working correctly
+
+No unauthorized access is allowed
+
+Encryption and permissions are enforced properly.
+
+**Final Conclusion-**
+
+The cloud environment was successfully secured by:
+
+Implementing IAM-based access control and Blocking public exposure of storage
+
+Enabling server-side encryption
+
+Verifying configuration using AWS CLI
+
+All required security measures were properly configured and validated.
+
+**Output:-**
+
